@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Catapult : Defense, ActionsAttack
+public class BoxesPowerUp : Boxes
 {
-    public void attack()
-    {
-        throw new System.NotImplementedException();
-    }
-
+    private Time time { get; set; }
+    private string action { get; set; }
+    private int status { get; set; }
+    private string color { get; set; }
     // Start is called before the first frame update
     void Start()
     {

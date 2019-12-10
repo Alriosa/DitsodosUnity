@@ -2,8 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Crossbow : MonoBehaviour
+public class Crossbow : Defense, ActionsAttack
 {
+    public void attack()
+    {
+        throw new System.NotImplementedException();
+    }
+
     // Start is called before the first frame update
     void Start()
     {

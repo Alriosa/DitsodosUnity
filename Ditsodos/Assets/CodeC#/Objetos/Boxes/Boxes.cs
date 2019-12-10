@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Boxes : MonoBehaviour
 {
+    private string type { get; set; }
+    private int quantity { get; set; }
+    private int location { get; set; }
     // Start is called before the first frame update
     void Start()
     {

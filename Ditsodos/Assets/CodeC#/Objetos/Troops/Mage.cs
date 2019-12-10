@@ -2,8 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Mage : MonoBehaviour
+public class Mage : Troop
 {
+    public override int attack()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public override int giveGoldToCastle()
+    {
+        throw new System.NotImplementedException();
+    }
+
     // Start is called before the first frame update
     void Start()
     {

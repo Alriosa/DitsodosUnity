@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class User : MonoBehaviour
 {
+    private int id { get; set; }
+    private string username { get; set; }
+    private string password { get; set; }
     // Start is called before the first frame update
     void Start()
     {

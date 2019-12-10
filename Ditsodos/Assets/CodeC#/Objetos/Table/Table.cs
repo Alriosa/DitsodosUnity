@@ -2,14 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Catapult : Defense, ActionsAttack
+public class Table : MonoBehaviour, ITable
 {
-    public void attack()
+    private int max_troops { get; set; }
+    private int boxes { get; set; }
+
+    public void generatePowerUps()
     {
         throw new System.NotImplementedException();
     }
 
     // Start is called before the first frame update
+
+
     void Start()
     {
         

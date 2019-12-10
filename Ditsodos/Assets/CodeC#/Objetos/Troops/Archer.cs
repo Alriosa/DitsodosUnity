@@ -2,8 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Archer : MonoBehaviour
+
+public class Archer : Troop, ActionsAttack
 {
+    public override int attack()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public override int giveGoldToCastle()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    void ActionsAttack.attack()
+    {
+        throw new System.NotImplementedException();
+    }
+
+
+
     // Start is called before the first frame update
     void Start()
     {

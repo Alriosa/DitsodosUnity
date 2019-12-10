@@ -2,8 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Swordman : MonoBehaviour
+public class Swordman : Troop
 {
+    public override int attack()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public override int giveGoldToCastle()
+    {
+        throw new System.NotImplementedException();
+    }
+
     // Start is called before the first frame update
     void Start()
     {

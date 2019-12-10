@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PowerUpAction : MonoBehaviour
 {
+
+    private int points { get; set; }
+    private bool active { get; set; }
+
     // Start is called before the first frame update
     void Start()
     {

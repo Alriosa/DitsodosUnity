@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Catapult : Defense, ActionsAttack
+public class PowerUpTrapDefense : PowerUpAction, IPowerUp
 {
-    public void attack()
+    public bool actived()
     {
         throw new System.NotImplementedException();
     }
